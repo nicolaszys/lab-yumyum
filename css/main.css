@@ -1,0 +1,173 @@
+*, :before, :after {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Lato', "sans-serif";
+}
+
+.img {max-width:100%;}
+
+.titre {
+    color: orange;
+    font-size: 20px;
+}
+
+.titremajeur {
+    display: flex;
+}
+
+header nav div a span {
+    display:none;
+}
+
+.panier {
+    width: 30px;
+}
+
+.menu {
+    width: 30px;
+}
+
+.fakeimage1 {
+    width:100%;
+}
+
+@media (min-width:900px){
+    .fakeimage1 {
+        width: 60%;
+    }
+}
+
+header div a {
+    display: flex;
+}
+
+.logomenu {
+    display:flex;
+    margin-left:auto;   
+}
+
+@media (min-width:900px) {
+    .logomenu {
+        display: none;
+    }
+}
+
+@media (min-width:900px) {
+    .majortitle {
+        display: flex;
+    }
+}
+
+.find {
+    background: linear-gradient(#c0da38,#74cc52);
+    padding: 20px 35px;
+}
+
+.input {
+    font-size:1em;
+    justify-content: center;
+}
+.order1 {
+    color:white;
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+
+.form {
+    align-items:center;
+}
+
+.enter {
+    display: block;
+}
+
+@media (min-width:900px){
+    .enter {
+        font-size:40px
+    }
+}
+
+.what {
+    display:block;
+}
+
+@media (min-width:900px){
+    .what {
+        font-size:40px
+    }
+}
+
+p button {
+    background-color: orange;
+    color: white;
+
+}
+
+@media (min-width:900px){
+    p button {
+    font-size:20px
+}
+
+.etapes {
+    border: black 1px solid;
+}
+
+/* @media (min-width:900px) {
+    .etapes .group {
+        display: flex;
+    }
+} */
+
+.how{
+    text-align: center;
+    color: orange;
+}
+
+.search {
+    display: flex;
+}
+
+.map {
+    width: 60px;
+}
+
+/* @media (min-width:900px) {
+    .map {
+        width: 20%;
+    }
+} */
+
+.order {
+    display: flex;
+}
+
+.clipboard {
+    width: 60px;
+}
+
+/* @media (min-width:900px) {
+    .clipboard {
+        width: 20%;
+    }
+} */
+
+.eat {
+    display: flex;
+}
+
+.bag {
+    width: 60px;
+}
+/* 
+@media (min-width:900px) {
+    .bag {
+        width: 20%;
+    }
+} */
+
+.dishesfull {
+    background-color:seashell
+}
